@@ -1,0 +1,41 @@
+body {
+   background-image: url(digital-clock-1-2048.webp); 
+   background-size: cover; 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  }
+   /* 
+} */
+
+.clock{
+    background-color: cyan;
+    padding: 20px;
+    text-decoration: white;
+    align-items: center;
+    font-family:orbitron;
+    border-radius:20px;
+    width:45%;
+    margin:auto;
+    transition:transform 0.5s ease-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#digital-clock:hover{
+  /* background-image: url('dc.jpg'); */
+  background-color: pink;
+  color:black;
+  transform: scale(1.0);
+  border:5px dashed white;
+}
+
+.time {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+}
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight:100;
+  font-size:70px;
+  
+}
